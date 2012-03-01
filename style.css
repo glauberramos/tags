@@ -1,0 +1,114 @@
+body {
+  font-family: "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+  color: #666666;
+  font-size: 1em;
+  background-color: #6E90FF;
+}
+
+#header {
+  margin-left: 0.5em;
+  font-family: 'Norican', cursive;
+  font-size: 3em;
+  text-shadow: #DDD 0 1px;
+  text-align: center;
+}
+  
+.tag {
+  float: left;
+  min-width: 100px;
+  max-width: 200px;
+  margin: 0.5em;
+  padding: 5px;
+  border-radius: 15px;
+  text-align: center;
+  background: #DDDDDD;
+  border: 1px solid;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  white-space: nowrap;
+}
+
+#tags {
+  width: 900px;
+  margin: 0 auto;
+}
+
+div.tag {
+  cursor:pointer;
+  -webkit-user-select: none;
+}
+
+div.tag:hover {
+  background: #AAAAAA;
+}
+
+div.tag.enable {
+  background: #00F572;
+}
+
+
+input {
+  width: 150px !important;
+  height: 30px;
+  border: 0;
+  outline: 0;
+  font-family: "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif; 
+  font-size: 1em;
+  color: #AAA;
+  border: 1px solid;
+}
+
+input.activate {
+  text-align: left;
+  color: #666666;
+  padding-left: 5px;
+}
+
+.draggable {
+  margin: 0px auto;
+  padding-top: 110px;
+}
+
+#recycle-box.activate {
+  border-color: red;
+  color: red;
+  background-color: #FFBFBF;
+}
+
+#recycle {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+
+#recycle-box {
+  width: 200px;
+  height:120px;
+  border: 2px solid #666666;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 1.1em;
+  color: #666666;
+  background-color: #DDD;
+  text-shadow: #fff 0 1px;
+  display:none;
+}
+
+#sprite {
+  width: 208px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#recycle-img {
+  width: 220px;
+  height: 210px;
+  display: block;
+  background-image: url(Prewiew_RecycleBin.png);
+  background-position: -3px 0;
+}
+
+#recycle-img.activate {
+  background-image: url(Prewiew_RecycleBin.png);
+  background-position: -206px 0;
+}

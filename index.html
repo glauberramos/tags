@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <link href='http://fonts.googleapis.com/css?family=Norican' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://raw.github.com/necolas/normalize.css/master/normalize.css"/>
+    
+    <script src="jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.8.17.custom.min.js" type="text/javascript"></script>    
+    <script src="script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <h2 id="header">Select the tags you want to use.</h2>
+    <div id='tags'>
+      <div class="tag droppable">Party</div>
+      <div class="tag droppable">Movies</div> 
+      <div class="tag droppable">Shopping</div>
+      <div class="tag droppable">Rock</div> 
+      <div class="tag droppable">Show</div> 
+      <div class="tag droppable">Food</div> 
+      <div class="tag droppable">Cars</div> 
+      <div class="tag droppable">Photo</div> 
+      <div class="tag droppable">Science</div> 
+    </div>
+    <input type="text" class="tag type" value="Type your text..." />
+    <div id="recycle">
+      <div class="draggable" id="recycle-box">Drop your tags here to delete them.</div>
+      <div id="sprite">
+        <span class="draggable" id="recycle-img"  />
+      </div>
+    </div>  
+  </body>
+</html>
